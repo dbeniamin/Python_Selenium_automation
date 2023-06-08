@@ -15,13 +15,13 @@ try:
     ))
     add_remove.click()
 
-    time.sleep(2)
+    time.sleep(1)
 # the button needed does not have a class or id , xpath location required, @inspect 'required text' = >given text at inspect<
     driver.find_element(By.XPATH, "//button[text()='Add Element']").click()  # click-ing the button found 
-    time.sleep(2)
+    time.sleep(1)
 # inspect newlly added button to find class => easyer to locate by class / id    
     driver.find_element(By.CLASS_NAME, "added-manually").click()
-    time.sleep(2)
+    time.sleep(1)
       
    
 finally:
