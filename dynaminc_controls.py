@@ -21,7 +21,6 @@ wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#message")))
 # checking the message matched the action
 assert driver.find_element(By.CSS_SELECTOR, "#message").text == "It's gone!"
 
-# finding the add button
 driver.find_element(By.CSS_SELECTOR, "#checkbox-example > button")
 actions = ActionChains(driver)
 time.sleep(1)
