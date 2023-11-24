@@ -10,3 +10,5 @@ Update: I already hit the block that drag and drop is not working.
 
 Update_1: Drag and Drop fixed with what was classified as ingenious by a much more experience QA engineer. 
 New file attached: drag_and_drop_pyautogui.py
+
+Update_2 - Added unit test to the testing scripts.
