@@ -1,7 +1,8 @@
 import selenium
 from selenium.webdriver.common.by import By
 import unittest
-
+### test made just to test clicks and to check the page response loaded properlly ###
+### i do not recomend to use selenium for api ###
 
 class TestStatusCodes(unittest.TestCase):
     # the setUp and tearDown functions will repeat during all test process
