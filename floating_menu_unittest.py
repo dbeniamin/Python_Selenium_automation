@@ -26,7 +26,7 @@ class TestFloatMenu(unittest.TestCase):
         # by changing the [1] to the number of the element you want to test
         # in this case 1 = Home, 2 = News, 3 = Contact, 4 = About
         floating_element = self.driver.find_element(By. XPATH, '//*[@id="menu"]/ul/li[1]/a')
-        # make a try bloc to raise assertio that the tested element is still present even after the scroll down
+        # make a try bloc to raise assertion that the tested element is still present even after the scroll down
         # use the no such element to catch the exception
         try:
             assert floating_element.is_displayed()
