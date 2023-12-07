@@ -1,11 +1,14 @@
-# This project is dedicated to practice SELENIUM and write test scripts for
-# https://the-internet.herokuapp.com
+# Practice SELENIUM Automation and test writing for https://the-internet.herokuapp.com
 
-
-The goal is to cover all the section and maybe make a big script at the end that contains all the tests.
+The Target is to automate almost all sections listed on the test website and evolve the testing along the way.
+Some sections are not present in the project due to the limitations of Selenium.
+Decided to use Selenium due to the large popularity of the tool, and choose Python because I like and enjoy using the language.
+The files can be used to track locators and see how selenium automates various tasks and elements that are present on most of the websites.
 All the files in this section will contain some explanations and personal notes.
 I do research along the way, so some comments might not be very professional, but I believe taking notes helps along the way.
-Update: I already hit the block that drag and drop is not working.
+The files / scripts can be used on any machine that has Python and Selenium installed and configured.
+
+Update: Hit the block that drag and drop is not working.
 Update_1: Drag and Drop fixed. 23.11.2023 
 New file attached: drag_and_drop_pyautogui.py
 
