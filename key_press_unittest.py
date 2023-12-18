@@ -26,7 +26,7 @@ class TestKeyPress(unittest.TestCase):
         # make sure you adjust the assertion values for the keys you chose.
         ActionChains(self.driver).send_keys(Keys.SPACE).perform()
         action_status_message = self.driver.find_element(By.ID, 'result')
-        # use any keys ou want to send to the field the page can take input from keys without focusing on the field
+        # use any keys you want to send to the field, the page can take input from keys without focusing on the field
         # itself, by doing so you can speed it up and remove the find field and click field steps
         self.assertEqual("You entered: SPACE", action_status_message.text)
         ### time.sleep(2)
