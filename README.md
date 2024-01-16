@@ -24,3 +24,5 @@ key_press_unittest.py
 add_remove_elements_unittest.py
 
 broken_image_unittest.py
+
+dropdown_unittest.py
