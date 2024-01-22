@@ -78,3 +78,5 @@ If you have suggestions, ideas, or improvements, please don't hesitate.
 Thank you for considering contributing!
 
 ### License ###
+
+MIT License
