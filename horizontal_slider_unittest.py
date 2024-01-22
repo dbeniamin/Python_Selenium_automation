@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 import unittest
 
-class Horizontal_Slider(unittest.TestCase):
+class HorizontalSlider(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.get("https://the-internet.herokuapp.com/horizontal_slider")
