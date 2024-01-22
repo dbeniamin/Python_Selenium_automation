@@ -26,6 +26,7 @@ In the world of web development and software testing, automated testing is an in
 - selenium
 - requests
 - urllib3
+- pyautogui
 
 ### Installation:
 
