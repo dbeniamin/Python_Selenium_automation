@@ -1,28 +1,80 @@
 # SELENIUM Automation for https://the-internet.herokuapp.com
 
-The target is to automate almost all sections listed on the test website and evolve the testing along the way.
-Some sections are not present in the project due to the limitations of Selenium.
-Decided to use Selenium due to the large popularity of the tool, and choose Python because I like and enjoy using the language.
-The files can be used to track locators and see how selenium automates various tasks and elements that are present on most of the websites.
-All the files in this section will contain some explanations and personal notes.
-I do research along the way, so some comments might not be very professional, but I believe taking notes helps along the way.
-The files / scripts can be used on any machine that has Python and Selenium installed and configured.
+This project showcases Selenium automation testing for various functionalities provided by [the-internet.herokuapp.com](https://the-internet.herokuapp.com). It includes test cases with a normal structure and unittest-based structure.
 
-Update: Hit the block that drag and drop is not working.
 
-Update_1: Drag and Drop fixed. 23.11.2023 
-New file attached: drag_and_drop_pyautogui.py
+### Introduction:
 
-Update_2: Added unittest to the testing scripts. 24.11.2023
+In the world of web development and software testing, automated testing is an integral part of ensuring the reliability and functionality of applications. This project focuses on automating tests for [the-internet.herokuapp.com](https://the-internet.herokuapp.com), a platform designed for practicing and showcasing different web elements and scenarios.
 
-Added extra comments for any one to check and see the thought process and approach.
+### Key Features:
 
-# Remade with unittest and uploaded: 
+- **Cross-Browser Testing:** Verify that your web application works seamlessly across different browsers.
+- **Element Interaction:** Learn how to interact with various HTML elements using Selenium WebDriver.
+- **Page Object Model (POM):** Understand and implement the Page Object Model for better test structure and maintainability.
+- **Unittest Framework:** Explore test case organization using the unittest framework in Python.
 
-key_press_unittest.py
+### Project Structure:
 
-add_remove_elements_unittest.py
+### tests: This folder contains all the Selenium test cases.
+- **normal_structure:** Test cases organized in a normal structure and have the name of tested feature.
+- **unittest_structure:** Test cases organized using the unittest framework and have the name of tested feature alongside a _unittest mention.
 
-broken_image_unittest.py
+### Requirements:
 
-dropdown_unittest.py
+- unittest
+- selenium
+- requests
+- urllib3
+
+### Installation:
+
+1. **Fork this repository:**
+   
+   Click on the "Fork" button at the top-right of this page to create your own copy of these Selenium automation scripts.
+
+2. **Clone your forked repository:**
+
+   Copy and run the desired scripts.
+
+### Usage:
+
+
+### Normal Structure Scripts
+
+To use the scripts with a normal structure:
+
+1. Copy the content of scriptname.py .
+2. Paste the content into a new Python file (e.g., `my_dropdown_script.py`).
+3. Save the file and run it.
+
+Feel free to modify and adapt the script based on your specific requirements.
+
+### Unittest Script
+
+To use the scripts with a unittest structure:
+
+1. Copy the content of scriptname_unittest.py .
+2. Paste the content into a new Python file (e.g., `my_dropdown_unittest_script.py`).
+3. Save the file and run.
+
+You can customize the scripts as needed for your own testing scenarios. Additionally, ensure you have the required dependencies installed as mentioned in the Installation section.
+
+Feel free to explore the scripts in the repository and adapt them to suit your automation needs.
+
+### Description:
+
+**Normal Scripts** : open the target page, locate the element or elements and interact with it so the user can see the action and the result.
+
+**Unittest Scripts** : open the target page, locate the element or elements and interact with it so the user can see the action and the result. This approach focuses on creating test classes that can be reused or grouped with a test runner and method passing approach.
+
+
+### Contributing:
+
+Contributions are welcome! Feel free to contribute to this Selenium Automation project.
+
+If you have suggestions, ideas, or improvements, please don't hesitate.
+
+Thank you for considering contributing!
+
+### License ###
