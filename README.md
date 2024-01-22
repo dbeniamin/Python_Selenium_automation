@@ -1,4 +1,4 @@
-# SELENIUM Automation for https://the-internet.herokuapp.com
+# SELENIUM Automation with Python for https://the-internet.herokuapp.com
 
 This project showcases Selenium automation testing for various functionalities provided by [the-internet.herokuapp.com](https://the-internet.herokuapp.com). It includes test cases with a normal structure and unittest-based structure.
 
