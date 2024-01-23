@@ -59,7 +59,7 @@ To use the scripts with a unittest structure:
 2. Paste the content into a new Python file (e.g., `my_dropdown_unittest_script.py`).
 3. Save the file and run.
 
-You can customize the scripts as needed for your own testing scenarios. Additionally, ensure you have the required dependencies installed as mentioned in the Installation section.
+You can customize the scripts as needed for your own testing scenarios. Additionally, ensure you have the required dependencies installed as mentioned in the Requirements section.
 
 Feel free to explore the scripts in the repository and adapt them to suit your automation needs.
 
